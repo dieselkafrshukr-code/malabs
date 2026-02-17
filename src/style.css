@@ -90,6 +90,15 @@ nav {
   transform: translateY(-2px);
 }
 
+/* Ensure SVGs are visible */
+.icon-btn svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+}
+
 /* Hero Section */
 .hero {
   flex: 1;
